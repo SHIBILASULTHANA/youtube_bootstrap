@@ -128,7 +128,9 @@ li {
     left: 25%;
     z-index: 1;
 }
-
+.mini-content::-webkit-scrollbar{
+    height: 0;
+}
 ::-webkit-scrollbar {
     width: 8px;
 }
